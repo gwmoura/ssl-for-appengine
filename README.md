@@ -10,3 +10,5 @@ After download certificate.crt, ca_bundle.crt and private.key files, access the 
 ```bash
 curl -sL https://raw.githubusercontent.com/gwmoura/ssl-for-appengine/master/appenginessl.sh | sh
 ```
+
+After you can access ` console.cloud.google.com` go to App Engine > Settings > SSl Certificates and upload `concat.crt` and `private.key.pem`
